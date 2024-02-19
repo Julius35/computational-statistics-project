@@ -1,4 +1,4 @@
-# Basketball Roles Analysis
+# Decoding NBA positions by shots
 ## Introduzione
 Questo progetto è stato sviluppato per il corso di Statistica Computazionale e ha l'obiettivo di classificare i giocatori di pallacanestro per ruolo in base alle caratteristiche dei tiri che
 effettuano nell’arco della stagione.
