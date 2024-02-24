@@ -1,18 +1,33 @@
-# Decoding NBA positions by shots
-## Introduzione
-Questo progetto è stato sviluppato per il corso di Statistica Computazionale e ha l'obiettivo di classificare i giocatori di pallacanestro per ruolo in base alle caratteristiche dei tiri che
-effettuano nell’arco della stagione.
+# Decoding NBA Positions by Shots
 
-## Descrizione del progetto
-È possibile classificare i giocatori di pallacanestro per ruolo in base alle caratteristiche dei tiri che effettuano nell’arco della stagione?
+## Project Overview
+This project seeks to classify NBA players into positions based on their shooting patterns using generative probabilistic models. We explore whether the traditional basketball positions are becoming obsolete and how roles have evolved over time across different NBA eras.
 
+## Data
+We used shot data from the NBA from the 1997-1998 season onwards, focusing on shot distance and other characteristics, while excluding shot quality metrics.
 
-È proprio questa la domanda a cui questo progetto vuole dare risposta, grazie ai dati di tiro che sono stati raccolti dall’NBA dalla stagione 1997-1998 ad oggi.
+## Methodology
+- Probabilistic generative models (EDDA & MDA) for position classification.
+- Data preprocessing included missing value treatment and variable selection.
+- Exploratory data analysis to understand shooting patterns among different positions.
+- Cluster analysis to identify natural groupings in the data.
+- Model-based classification to predict player positions.
 
+## Results
+Our models achieved an accuracy of over 70%, indicating a successful classification of NBA players by shooting patterns. The analysis also confirmed an evolution in the roles of players over the years.
 
-Il primo obiettivo del progetto è infatti quello di implementare alcuni modelli di classificazione probabilistica generativa (in particolare EDDA models e MDA) per cercare di classificare al meglio i giocatori per posizione
-sulla base di alcuni dati che concernono il tiro, in particolare la distanza da canestro e altre caratteristiche dei tiri tentati. 
+## How to Use
+1. Clone the repository.
+2. Navigate to the code directory.
+3. Run the `code.R` script for the analysis.
 
+## Contributing
+We welcome contributions and suggestions. Please open an issue or submit a pull request for any improvements.
 
-Il secondo obiettivo è invece quello di verificare se, come viene ripetuto da molti cronisti e “addetti ai lavori” della pallacanestro, sia effettivamente vero che il gioco del basket, soprattutto in NBA, si stia
-sempre più orientando alla definitiva scomparsa dei ruoli tradizionali mutando gradualmente nel tempo; a questo scopo si dividerà il dataset in 3 “ere” e si cercherà di capire come performano modelli di classificazione allenati su una determinata era e testati sulle altre, per verificare l’esistenza di un qualche tipo di trasformazione.
+## Authors
+- Julius Maliwat
+- Giacomo Rabuzzi
+- Andrea Robbiani
+
+## Acknowledgments
+Thanks to Basketball Reference for providing the data used in this analysis.
